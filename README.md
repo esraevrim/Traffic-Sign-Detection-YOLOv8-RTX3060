@@ -104,20 +104,6 @@ python test_canli.py
 ├── data.yaml          # Dataset class definitions and paths
 └── proje_test.mp4     # Demo video
 ```
-
----
-
-## 🔮 Future Work — PCB Defect Detection
-
-This project is a **proof-of-concept** for an upcoming AI-based PCB Quality Control System.  
-The same pipeline (YOLOv8 + CUDA + Custom Training) will be adapted to detect manufacturing defects including:
-
-- Missing solder joints
-- Short circuits
-- Component misalignments
-
----
-
 ## 👤 Author
 
-**Esra Evrim** — Computer Engineering Student
+**Esra Evrim** - Computer Engineering Student
