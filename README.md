@@ -1,6 +1,6 @@
 # 🚦 Real-Time Traffic Sign Detection with YOLOv8 & NVIDIA RTX 3060
 
-> A high-performance, real-time traffic sign detection system — developed as a pilot study for an AI-based industrial **PCB Defect Detection** project.
+> A high-performance, real-time traffic sign detection system - developed as a pilot study for an AI-based industrial **PCB Defect Detection** project.
 
 ---
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 📊 Model Performance (Validation — 100 Epochs)
+## 📊 Model Performance (Validation - 100 Epochs)
 
 | Metric | Value |
 |:---|:---|
@@ -24,7 +24,7 @@
 | **Precision** | 0.950 |
 | **Recall** | 0.932 |
 
-> High precision minimizes false positives — critical for safety-sensitive applications like traffic sign recognition and PCB inspection.
+> High precision minimizes false positives - critical for safety-sensitive applications like traffic sign recognition and PCB inspection.
 
 ---
 
@@ -64,20 +64,20 @@ This dataset is part of **RF100**, an Intel-sponsored benchmark initiative for e
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or Anaconda
 - NVIDIA GPU with up-to-date drivers
 
-### 1 — Create the Environment
+### 1 - Create the Environment
 
 ```bash
 conda create -n yolo_env python=3.10 -y
 conda activate yolo_env
 ```
 
-### 2 — Install PyTorch with CUDA Support
+### 2 - Install PyTorch with CUDA Support
 
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
 
-### 3 — Install Dependencies
+### 3 - Install Dependencies
 
 ```bash
 pip install ultralytics opencv-python
